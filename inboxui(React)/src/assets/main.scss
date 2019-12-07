@@ -1,0 +1,210 @@
+// General css
+
+// *General css*/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+// *,
+// :after,
+// :before {
+//   border: 0 solid #e2e8f0;
+//   border-top-color: rgb(226, 232, 240);
+//   border-top-style: solid;
+//   border-top-width: 0px;
+//   border-right-color: rgb(226, 232, 240);
+//   border-right-style: solid;
+//   border-right-width: 0px;
+//   border-bottom-color: rgb(226, 232, 240);
+//   border-bottom-style: solid;
+//   border-bottom-width: 0px;
+//   border-left-color: rgb(226, 232, 240);
+//   border-left-style: solid;
+//   border-left-width: 0px;
+//   border-image-source: initial;
+//   border-image-slice: initial;
+//   border-image-width: initial;
+//   border-image-outset: initial;
+//   border-image-repeat: initial;
+// }
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+// .wrapper {
+//   max-width: 1200px;
+//   margin: 0 auto;
+//   padding: 0 2rem;
+// }
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.8;
+  background-color: #f3f3f3;
+  width: 100%;
+}
+.flex {
+  display: flex;
+  // justify-content: space-around;
+  // align-items: center;
+  // flex-wrap: wrap;
+}
+
+html {
+  font-size: 16px;
+}
+// button
+button {
+  background: transparent;
+  // color: inherit;
+  border: inherit;
+  cursor: pointer;
+}
+// main-css
+.main {
+  // -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background-color: rgb(74, 85, 104);
+  display: flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  flex: 1 1 0%;
+}
+
+// header- style
+
+.header-height {
+  height: 100vh;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-shrink {
+  flex-shrink: 0;
+}
+.header-div {
+  background-color: rgb(45, 55, 72);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  width: 16rem;
+}
+.full-width {
+  width: 100%;
+}
+.justiy-content-sb {
+  justify-content: space-between;
+}
+.center {
+  align-items: center;
+}
+.image {
+  object-fit: cover;
+  border-radius: 624.9375rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.span-2 {
+  font-size: size 0.875rem;
+  color: #fff;
+  margin-left: 2rem;
+  margin-right: 0.5rem;
+  font-weight: 600;
+  font-style: bold;
+  font-size: inherit;
+}
+
+.nav-i {
+  display: inline-block;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 1;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  border-radius: 0.5rem;
+  font-style: bold;
+}
+.nav-mailbox-bg {
+  background-color: #2d3748;
+}
+.nav-margin {
+  margin-left: 0.5rem;
+}
+.nav-wid {
+  margin-right: 40rem;
+}
+.search-span {
+  position: relative;
+  width: 16rem;
+  line-height: 1.5;
+}
+.search-span-1 {
+  left: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+.search-image {
+  color: #a0aec0;
+
+  width: 1.25rem;
+  fill: currentColor;
+  height: 1.25rem;
+  margin-left: 0.35rem;
+  border: inherit;
+  line-height: 1.5;
+}
+.search-input {
+  width: 80%;
+  font-size: 0.875rem;
+  color: #fff;
+  padding-left: 2.25rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: block;
+  border-radius: 0.5rem;
+  border: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  font-style: bold;
+  font-weight: 300;
+  text-transform: capitalize;
+  background-color: #1a202c;
+}
+
+// input {
+//   // -webkit-writing-mode: horizontal-tb !important;
+//   text-rendering: auto;
+//   color: initial;
+//   letter-spacing: normal;
+//   word-spacing: normal;
+//   text-transform: none;
+//   text-indent: 0px;
+//   text-shadow: none;
+//   display: inline-block;
+//   text-align: start;
+//   -webkit-appearance: textfield;
+//   background-color: white;
+//   -webkit-rtl-ordering: logical;
+//   cursor: text;
+//   margin: 0em;
+//   font: 400 13.3333px Arial;
+//   padding: 1px 0px;
+//   border-width: 2px;
+//   border-style: inset;
+//   border-color: initial;
+//   border-image: initial;
+// }

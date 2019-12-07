@@ -1,0 +1,67 @@
+// General css
+
+// *General css*/
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+body {
+font-family: 'Bebas Neue', cursive;
+  line-height: 1.8;
+  background-color: #f3f3f3;
+  width: 100%;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: right;
+  flex-wrap: wrap;
+  // width: 30%;
+}
+html {
+  font-size: 16px;
+}
+
+//
+
+.js-header {
+  color:tomato;
+  font-size:25px;
+  text-transform:uppercase;
+  text-align:center;
+
+}
+
+.hover:hover{
+  background-color: cyan;
+  cursor:pointer
+}
+
+button {
+  background-color: crimson;
+  border: 1px solid #f3f3f3;
+  margin-right: 12px;
+  font-size: 20px;
+  color: burlywood;
+}
