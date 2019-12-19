@@ -1,0 +1,81 @@
+.main_left {
+  width: 20rem;
+  height: 100vh;
+  border: 1px solid #e2e8f0;
+  position: absolute;
+  left: 18%;
+  top: 3.6rem;
+  overflow-y: auto;
+  padding-bottom: 4rem;
+}
+.sort_by_container {
+  font-size: 0.75rem;
+  color: #718096;
+  background-color: #edf2f7;
+  font-weight: 600;
+  padding: 0.5rem;
+  display: flex;
+  padding: 1rem;
+  position: fixed;
+  top: 3.6rem;
+  width: 20rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.sort_by_left {
+  display: flex;
+  align-items: center;
+}
+
+.sort_by_arrow {
+  font-size: 0.5rem;
+  padding: 0 0.4rem;
+  font-weight: 100;
+  transform: rotate(180deg);
+}
+.menu_container {
+  width: 1rem;
+}
+.menu_logo {
+  width: 100%;
+}
+
+//  student details
+
+.student_details_container {
+  width: 20rem;
+  margin-top: 2.8rem;
+}
+
+.student_details {
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+.student_name_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.student_name {
+  font-size: 0.9rem;
+  color: #1a202c;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+.student_detail {
+  font-size: 0.9rem;
+  color: #4a5568;
+  line-height: 1.25rem;
+}
+.time {
+  color: #718096;
+  line-height: 1.1rem;
+  font-size: 0.75rem;
+}
+.about_content {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #718096;
+  margin-top: 0.5rem;
+}
