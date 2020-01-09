@@ -1,24 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./assets/reset.scss";
-import "./assets/main.scss";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-import Me from "./components/app.js";
+ReactDOM.render(<App />, document.getElementById('root'));
 
-//  function App(){
-//      return <h1>hello world</h1>
-//  }
-// we have to return only one parent with a component
-const App = () => {
-  return (
-    <div>
-      <Me />
-      <h1>hello react</h1>
-    </div>
-  );
-};
-
-ReactDOM.render(<App />, document.getElementById("root"));
-
-// {           //  <h1> {`${props.name}`}</h1>
-//  <img className="img" src="/images/pic.jpg" alt="bike" />}
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
